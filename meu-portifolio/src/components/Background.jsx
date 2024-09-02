@@ -1,4 +1,3 @@
-// src/components/home/Background.jsx
 import styled from 'styled-components';
 import backgroundImage from '../assets/images/planodefundo.jpg'; 
 
