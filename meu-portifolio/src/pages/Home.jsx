@@ -11,7 +11,7 @@ const HomeContainer = styled.div`
   padding: 0 20px;
   color: #fff;
   @media (max-width: 768px) {
-    margin-top: 200px; 
+    margin-top: 200px;
   }
 `;
 
@@ -29,7 +29,7 @@ const ContentWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    margin-top: 100px; /* Adiciona margem superior em dispositivos móveis */
+    margin-top: 100px; 
   }
 `;
 
@@ -95,27 +95,6 @@ const Paragraph = styled.p`
   }
 `;
 
-const Button = styled.a`
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #ff5722;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-
-  &:hover {
-    background-color: #e64a19;
-    transform: scale(1.05);
-  }
-  @media (max-width: 768px) {
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
-`;
-
 const Home = () => {
   return (
     <HomeContainer>
@@ -142,7 +121,6 @@ const Home = () => {
             significativamente para cada projeto em que estou envolvido e
             crescer como profissional na área de desenvolvimento.
           </Paragraph>
-          <Button href="/projects">Ver Projetos</Button>
         </TextWrapper>
       </ContentWrapper>
     </HomeContainer>

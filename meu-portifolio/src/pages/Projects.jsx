@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaDatabase, FaNetworkWired, FaClipboardList } from 'react-icons/fa';
+import { FaDatabase, FaNetworkWired, FaClipboardList } from "react-icons/fa";
 
 const ProjectsContainer = styled.div`
   display: flex;
@@ -14,6 +14,9 @@ const ProjectsContainer = styled.div`
   color: #fff;
   text-align: center;
   background-size: cover;
+  @media (max-width: 768px) {
+    margin-top: 200px;
+  }
 `;
 
 const Title = styled.h1`
@@ -39,7 +42,8 @@ const ProjectCard = styled.div`
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
   text-align: center;
 
   &:hover {
@@ -101,19 +105,22 @@ const Projects = () => {
   const projects = [
     {
       title: "Backup automático SQL",
-      description: "Backup automático para bancos que estão em servidores ou local.",
+      description:
+        "Backup automático para bancos que estão em servidores ou local.",
       icon: <FaDatabase />,
       link: "https://github.com/GuilhermeReis12/backup_banco",
     },
     {
       title: "Monitoramento Ips",
-      description: "Sistema que monitora os IPs da sua rede e verifica qual está disponível.",
+      description:
+        "Sistema que monitora os IPs da sua rede e verifica qual está disponível.",
       icon: <FaNetworkWired />,
       link: "https://github.com/GuilhermeReis12/Monitorar_IPs",
     },
     {
       title: "Gerenciamento de Patrimonio",
-      description: "Sistema de cadastro e gerenciamento de patrimônio empresarial.",
+      description:
+        "Sistema de cadastro e gerenciamento de patrimônio empresarial.",
       icon: <FaClipboardList />,
       link: "https://github.com/GuilhermeReis12/gerenciador",
     },
