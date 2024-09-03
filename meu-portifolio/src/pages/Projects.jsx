@@ -100,19 +100,19 @@ const Button = styled.a`
 const Projects = () => {
   const projects = [
     {
-      title: "Projeto 1",
+      title: "Backup automático SQL",
       description: "Backup automático para bancos que estão em servidores ou local.",
       icon: <FaDatabase />,
       link: "https://github.com/GuilhermeReis12/backup_banco",
     },
     {
-      title: "Projeto 2",
+      title: "Monitoramento Ips",
       description: "Sistema que monitora os IPs da sua rede e verifica qual está disponível.",
       icon: <FaNetworkWired />,
       link: "https://github.com/GuilhermeReis12/Monitorar_IPs",
     },
     {
-      title: "Projeto 3",
+      title: "Gerenciamento de Patrimonio",
       description: "Sistema de cadastro e gerenciamento de patrimônio empresarial.",
       icon: <FaClipboardList />,
       link: "https://github.com/GuilhermeReis12/gerenciador",
