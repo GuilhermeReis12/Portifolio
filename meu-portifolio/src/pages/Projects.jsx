@@ -118,11 +118,11 @@ const Projects = () => {
       link: "https://github.com/GuilhermeReis12/Monitorar_IPs",
     },
     {
-      title: "Gerenciamento de Patrimonio",
+      title: "Criação da IA Jarvis",
       description:
-        "Sistema de cadastro e gerenciamento de patrimônio empresarial.",
+        "Criei uma inteligencia artificial básica que funciona com o Chat Gpt J.A.R.V.I.S",
       icon: <FaClipboardList />,
-      link: "https://github.com/GuilhermeReis12/gerenciador",
+      link: "https://github.com/GuilhermeReis12/J.A.R.V.I.S",
     },
   ];
 
